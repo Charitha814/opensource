@@ -1,0 +1,10 @@
+n, m = map(int, input().split())
+arr = list(map(int, input().split()))
+x1=0
+x2=0
+for j in arr:
+    if(j%m==0):
+        x1+=j
+    else:
+        x2+=j
+print(x1-x2)
